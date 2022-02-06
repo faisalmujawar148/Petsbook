@@ -90,13 +90,11 @@ svg {
   -webkit-transition:all 0.3s linear;
 
 }
-/*BOOM */
 .about__slot .headshot {
   margin:auto;
   margin-top:19px;
   width:172px;
   height:172px;
-  /*border:10px double #424242;*/
   background-size:200px 200px;
   background-position:center 15%;
   border-radius:100%;
@@ -131,7 +129,7 @@ svg {
 }
 
 .about__slot .title {
-   font-family:"Typo Grotesk",sans-serif;
+  font-family:"Typo Grotesk",sans-serif;
   font-size:16px;
   font-weight:300;
   margin-top:5px;
@@ -163,4 +161,8 @@ svg {
 
 .about__section .about__slot:hover .about__info {
     background-color:rgba(0,0,0,0.42);
+}
+.falsebody{
+  align-self: center;
+  justify-content: center;
 }
