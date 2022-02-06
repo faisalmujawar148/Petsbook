@@ -45,8 +45,8 @@ ul {
 }
 .prod-logo
 {
-  width: auto;
-  height: auto;
+  width: 6%;
+  height: 1%;
   position:absolute;
   left:0;right:0;
   z-index:1;
@@ -54,8 +54,8 @@ ul {
 }
 .prod-img
 {
-  width:70px;
-  height:70px;
+  width:auto;
+  height:auto;
   margin:0px auto;
   border-radius:3px;
   padding:5px;
@@ -73,8 +73,8 @@ ul {
 }
 .prod-human-img
 {
-  width:250px;
-  height:300px;
+  width:auto;
+  height:auto;
 }
 .prod-head
 {
