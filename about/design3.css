@@ -20,18 +20,18 @@ p {
   text-align: center;
   display: grid;
   grid-template-columns: 10fr;
-  grid-template-rows: 0.05fr 1fr;
+  grid-template-rows: .05fr .01fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Homebar"
+    "home"
     "Main-page"
 }
 
 .Homebar {
   align-self:flex-start;
   justify-self: center;
-  grid-area: Homebar;
+  grid-area: home;
 }
 
 .Main-page { grid-area: Main-page; }
@@ -55,7 +55,9 @@ p {
 
 .A2 { grid-area: A2; justify-content:center; align-self: center;}
 
-
+.text-center{
+  justify-content: center;
+}
 .welcome {
   padding: 200px;
   background: url("https://images.unsplash.com/photo-1582056615449-5dcb2332b3b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") center center no-repeat fixed;
@@ -69,16 +71,6 @@ p {
 .upAndDown:hover {
   color: #D38947;
 }
-
-.arrow-down a {
-  color: #095057;
-}
-
-.arrow-down a:hover {
-  transition: color 0.3s linear;
-  color: #D38947;
-}
-
 
 main {
   background-color: #ddd;

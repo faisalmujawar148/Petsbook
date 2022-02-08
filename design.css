@@ -31,8 +31,12 @@ a {
  }
 
 .content1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
   grid-area: content1;
   justify-self: center;
+  align-self: center;
  }
 
 h3{

@@ -9,6 +9,7 @@ svg {
   fill:#fff;
 }
 
+
 .about__section {
   width:960px;
   margin:auto;
@@ -142,8 +143,17 @@ svg {
 
 .about__section .about__slot:hover .about__info {
     background-color:rgba(0,0,0,0.42);
+.container {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Home-bar";
 }
-.falsebody{
+
+.Home-bar {
+  justify-self: center;
   align-self: center;
-  justify-content: center;
+  grid-area: Home-bar;
 }
