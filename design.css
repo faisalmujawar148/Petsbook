@@ -2,18 +2,40 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-.grid-container {
-  display: grid;
+.container {  display: grid;
+  grid-template-columns: 0.9fr 1.2fr 0.9fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
   grid-template-areas:
-    'myArea myArea . . .'
-    'myArea myArea . . .';
+    "new-title new-title new-title"
+    "picture1 content1 picture2";
 }
-.grid-item {
-  
-}
+
+.new-title {
+  grid-area: new-title;
+  justify-self: center;
+  align-self: center;
+ }
+
+.picture1 {
+  grid-area: picture1;
+  justify-self: center;
+  align-self: center;
+ }
+
+.picture2 {
+  grid-area: picture2;
+  justify-self: center;
+  align-self: center;
+ }
+
+.content1 {
+  grid-area: content1;
+  justify-self: center;
+ }
+
 h3{
-  justify-content: center;
-  display: inline-block;
   font-size: 2.5vw;
   width: 100%;
   letter-spacing: 0.15vw;
