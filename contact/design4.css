@@ -60,25 +60,6 @@ svg {
   box-shadow:inset 0px -5px 10px 0 rgba(0,0,0,1);
 }
 
-.about__slot.bio .bioText  {
-  opacity:1;
-  border-radius:0;
- position:absolute;
-  top:50px;
-  padding-top:200px;
-  left:0;
-  right:0;
-  bottom:0;
-  width:80%;
-  height:250px;
-  color:rgba(255,255,255,1);
-  background-color:rgba(42,42,42,0.7);
-  z-index:8;
-  margin:auto;
-  font-family:sans-serif;
-  overflow:auto;
-}
-
 .about__slot .about__info {
   position:absolute;
   left:0;

@@ -2,11 +2,19 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'myArea myArea . . .'
+    'myArea myArea . . .';
+}
+.grid-item {
+  
+}
 h3{
   justify-content: center;
   display: inline-block;
   font-size: 2.5vw;
-  color: rgb(105,105,105);
   width: 100%;
   letter-spacing: 0.15vw;
 }
