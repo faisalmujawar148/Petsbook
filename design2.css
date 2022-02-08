@@ -1,27 +1,52 @@
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.container {  display: grid;
+  grid-template-columns: 10fr;
+  grid-template-rows: 2.5fr 100fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Homebar"
+    "Main-page"
+}
+
+.Homebar {
+  align-self: center;
+  justify-self: center;
+  grid-area: Homebar;
+}
+
+.Main-page { grid-area: Main-page; }
+
+
 *{
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-size: 12px;
-  background-color: #eff5f9;
+  background-color: #1b1b1b;
+  overflow-x: hidden;
 }
 .headerMenu{
-  background-color: #00B9ED;
+  background-color: #1b1b1b;
   height: 50px;
   border-bottom: 0px;
   padding-left: auto;
   padding-right: auto;
   width:100%;
 }
-#wrapper{
-  display: grid;
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.buttons{
 
-}
+
+
 .logo{
   width: auto;
   height: auto;

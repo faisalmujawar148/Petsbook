@@ -15,10 +15,47 @@ body, main, aside, footer {
 p {
   font-family: 'Merriweather', serif;
 }
+.container {  display: grid;
+  grid-template-columns: 10fr;
+  grid-template-rows: 0.05fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Homebar"
+    "Main-page"
+}
+
+.Homebar {
+  align-self:flex-start;
+  justify-self: center;
+  grid-area: Homebar;
+}
+
+.Main-page { grid-area: Main-page; }
+.container2 {  display: grid;
+  grid-template-columns: 100f;
+  grid-template-rows: 0.5fr 1.5fr 0.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Q1"
+    "A1"
+    "Q2"
+    "A2";
+}
+
+.Q1 { grid-area: Q1; justify-content:center; align-self: center;}
+
+.A1 { grid-area: A1; justify-content:center; align-self: center;}
+
+.Q2 { grid-area: Q2; justify-content:center; align-self: center;}
+
+.A2 { grid-area: A2; justify-content:center; align-self: center;}
+
 
 .welcome {
   padding: 200px;
-  background: url("https://unsplash.it/g/1200/600/?image=6") center center no-repeat fixed;
+  background: url("https://images.unsplash.com/photo-1582056615449-5dcb2332b3b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") center center no-repeat fixed;
   background-size: cover;
 }
 
